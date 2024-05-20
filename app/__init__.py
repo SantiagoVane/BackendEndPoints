@@ -1,7 +1,7 @@
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 from .config import Config
-from .routes import main as main_blueprint
+from .routes import main as main_blueprint 
 
 db = SQLAlchemy()
 
